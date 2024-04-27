@@ -1,0 +1,86 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: linear-gradient(
+    to right,
+    rgb(126, 223, 238),
+    rgb(233, 57, 139)
+  );
+}
+
+.calculator {
+  background-color: #444;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  /* padding: 20px; */
+  text-align: center;
+  width: 300px;
+  padding: 3px;
+  padding-bottom: 15px;
+}
+
+.calculator input[type="button"] {
+  padding: 10px;
+  width: 55px;
+  height: 55px;
+  margin: 5px;
+  font-size: 30px;
+  border: none;
+  background-color: #aaa9a952;
+  color: white;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.calculator input[type="button"]:hover {
+  background-color: #00062d;
+}
+
+.calculator input[type="text"] {
+  margin-top: 25px;
+  width: calc(100% - 60px);
+  height: 50px;
+  margin-bottom: 10px;
+  padding: 10px;
+  font-size: 34px;
+  border: 1px solid #3b3b3b;
+  border-radius: 5px;
+  background-color: #313131;
+  color: #ffffff;
+  text-align: right;
+}
+.calculator input[type="button"].equal {
+  background-color: hsl(221, 90%, 44%);
+  color: #fff;
+}
+
+.calculator input[type="button"].clear {
+  background-color: #aaa9a952;
+  color: #fff;
+}
+
+.calculator input[type="button"].operator {
+  background-color: #aaa9a952;
+  color: #fff;
+}
+
+.calculator input[type="button"].percentage {
+  background-color: #aaa9a952;
+  color: #fff;
+}
+
+.calculator input[type="button"].double-zero {
+  background-color: #aaa9a952;
+  color: #fff;
+}
+
+.calculator input[type="button"].delete {
+  background-color: #aaa9a952;
+  color: #fff;
+}
